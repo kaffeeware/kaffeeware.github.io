@@ -1,5 +1,7 @@
 
 
+
+
 <!DOCTYPE html>
 
 <html>
@@ -12,7 +14,7 @@ function isMovile(){
 	}
 	return false;
 }	
-	if (isMovile() == false){
+	if (isMovile() != false){
 		window.location.href = "mobile_index.html";
 	}
 </script>
@@ -45,9 +47,31 @@ a:active {
   text-decoration: underline;
 }
 	
+	
+.font01{
+	font-size: 9px;
+}	
+	
+.font02{
+	font-size: 13px;
+}	
+	
+.font03{
+	font-size: 16px;
+}	
+	
 .font04{
-	font-size: 10px;
+	font-size: 18px;
 }
+
+.font05{
+	font-size: 24px;
+}
+
+.font50{
+	font-size: 48px;
+}
+
 
 .table_banner{
 	//border: 1px solid black;
@@ -66,7 +90,7 @@ a:active {
 <table border = '0'  width='100%' >
 <tr align='center' height="15%">
 <td bgcolor='black'>
-    <font size = 50 color='white'>
+    <font class='font50' color='white'>
    
     <b>KAFFEEWARE</b>
     </font>
@@ -89,23 +113,23 @@ a:active {
 	
 <tr align='center' style="vertical-align:top">
 <td>
-    <font size = 5>
+    <font class='font05'>
     <br>
     <b>Save The Kuin</b>
 	</font>
 	
-    <font size = 3 color="black">
+    <font class='font03' color="black">
     <br>NROM action-adventure game for the NES.
 	</font>
 	
-    <font size = 3>
+    <font class='font03'>
     <br><a href="http://forums.nesdev.com/download/file.php?id=19053">download v05</a>  
 
     <br><br>
     <img src="images/savethekuin00.png" border=1> <img src="images/savethekuin01.png" border=1>
 	</font>
 	
-    <font size = 5>
+    <font class='font05'>
     <br> <a href="https://action53.itch.io/compocart19?secret=Z5vgQ7pT4aGhTFkNs4AyRBfbY">SaveTheKuin is part of the 'NESDev '19 Coding Competition Multicart'</a>
     </font>
 	
@@ -130,7 +154,7 @@ a:active {
 <tr align='center'>
 <td>
     <br><b>I. Save the Kuin Special</b>
-    <font size = 3 color="black">
+    <font class='font03' color="black">
     <br>An extended version of Save The Kuin with additional music, maps and story for the NES.
     
     
@@ -161,10 +185,10 @@ a:active {
 </table>
 
 
-    <font size = 2>
+    <font class='font02'>
     <br><b>kaffeeware -at- gmail </b>
     
-    <font size = 1>
+    <font class='font01'>
     <br><b>©2020 KAFFEEWARE</b>
 	</font>
 
@@ -174,4 +198,5 @@ a:active {
   
 </body>
 </html>
+
 
